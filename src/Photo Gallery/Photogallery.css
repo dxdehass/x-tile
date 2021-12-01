@@ -1,0 +1,117 @@
+.photo-grid{
+    width: 1109px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 7px;
+    }
+.h1-photo{
+    text-align: center;
+    padding: 100px 0px 20px 0px;
+    font-weight: normal;
+}
+
+/* column 1 */
+ 
+.column1{
+    width: fit-content;
+}
+.pebble-pan{
+    height: 364px;
+    margin-bottom: 4px;
+}
+.Commercial{
+    height: 487px;
+    margin-bottom: 4px;
+}
+.parents-floor{
+    height: 274px;
+    margin-bottom: 4px;
+}
+.shower-pan{
+    height: 487px;
+    margin-bottom: 4px;
+}
+.mitered-jamb {
+    height: 487px;
+    margin-bottom: 4px;
+}
+.outside-floor {
+    height: 487px;
+    margin-bottom: 4px;
+}
+.Floor{
+    height: 487px;
+    margin-bottom: 4px;
+} 
+
+/* column 2 */
+
+.column2{
+    width: fit-content;
+}
+.Davis{
+    height: 453px;
+    margin-bottom: 4px;
+}
+.double-niche{
+    height: 487px;
+    margin-bottom: 4px;
+}
+.glass-bs{
+    height: 274px;
+    margin-bottom: 4px;
+}
+.Blue{
+    height: 364px;
+    margin-bottom: 4px;
+}
+.parents-shower{
+    height: 487px;
+    margin-bottom: 4px;
+}
+.subway-shower{
+    height: 487px;
+    margin-bottom: 4px;
+}
+.Accent{
+    height: 487px;
+    margin-bottom: 4px;
+} 
+
+/* column 3 */
+
+.column3{
+    width: fit-content;
+}
+.return-wall{
+    height: 364px;
+    margin-bottom: 4px;
+}
+.Niche{
+    height: 272px;
+    margin-bottom: 4px;
+}
+.glass-window{
+    height: 489px;
+    margin-bottom: 4px;
+}
+.wide-shower{
+    height: 487px;
+    margin-bottom: 4px;
+}
+.mitered-niche{
+    height: 487px;
+    margin-bottom: 4px;
+}
+.subway-jamb{
+    height: 487px;
+    margin-bottom: 4px;
+}
+.mud-work{
+    height: 487px;
+    margin-bottom: 4px;
+} 

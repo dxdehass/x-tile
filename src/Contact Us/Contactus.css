@@ -1,0 +1,58 @@
+.contact-div h2{
+    text-align: center;
+    font-weight: normal;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.contact-form input{
+    display: block;
+    width: 725px;
+    height: 50px;
+    margin: 25px auto;
+}
+.contact-form textarea{
+    width: 725px;
+    height: 150px;
+    max-width: 725px;
+    min-width: 725px;
+}
+div .button{
+    color: rgb(22, 22, 22);
+    background-color: rgb(219, 219, 219);
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: none;
+    width: 110px;
+}
+.button:hover{
+    box-shadow: 0px 0px 10px 0px gray;
+    background-color:  rgb(219, 219, 219);
+}
+.contact-div p{
+    font-size: x-small;
+    text-align: center;
+}
+hr{
+    margin: auto 175px;
+}
+.footer{
+    margin: auto 175px;
+    display: inline;
+}
+.contact-div .footer p .copyright{
+    text-align: left;
+}
+.contact-div .footer p .godaddy{
+    text-align: right;
+}
+
+
+

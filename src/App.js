@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Logo from './Logo/Logo';
+import Aboutus from './About Us/Aboutus';
+import Photogallery from './Photo Gallery/Photogallery'
+import Instagram from './Instagram/Instagram';
+import Contactus from './Contact Us/Contactus';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Logo />
+      <Aboutus />
+      <Photogallery />
+      <Instagram />
+      <Contactus />
     </div>
-  );
+   );
 }
 
 export default App;
